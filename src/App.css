@@ -1,0 +1,59 @@
+.App {
+  background-image: url('background.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+h2 {
+  color: #00B000;
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+
+select {
+  width: 70%;
+  height: 90px;
+  padding: 10px;
+  font-size: 1.5em;
+  border-radius: 40px;
+  margin-bottom: 40px;
+  color: #555;
+  text-align-last: center;
+  background-color: #f8f8f8; /* Light gray */
+}
+
+option {
+  color: #000;
+  background-color: #f8f8f8; /* Light gray */
+  padding: 10px;
+}
+
+option:hover {
+  background-color: #ddd; /* Slightly darker gray */
+}
+
+
+button {
+  width: 30%;
+  height: 70px;
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 40px;  /* Add margin bottom */
+}
+
+option {
+  color: #000;
+}
+
+.angry-images {
+  display: flex;
+  justify-content: space-around;
+  width: 40%;
+  margin-bottom: 40px;  /* Add margin bottom if you have more elements below */
+}
